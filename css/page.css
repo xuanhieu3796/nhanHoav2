@@ -1,59 +1,60 @@
 @font-face {
-  font-family: "URWDIN";
-  src: url("../fonts/URWDIN-Light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; 
+    font-family: "URWDIN";
+    src: url("../fonts/URWDIN-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "URWDIN";
-  src: url("../fonts/URWDIN-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap; 
+    font-family: "URWDIN";
+    src: url("../fonts/URWDIN-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "URWDIN";
-  src: url("../fonts/URWDIN-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap; 
+    font-family: "URWDIN";
+    src: url("../fonts/URWDIN-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "URWDIN";
-  src: url("../fonts/URWDIN-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap; 
+    font-family: "URWDIN";
+    src: url("../fonts/URWDIN-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "URWDIN";
-  src: url("../fonts/URWDIN-Black.woff2") format("woff2");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap; 
+    font-family: "URWDIN";
+    src: url("../fonts/URWDIN-Black.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
 }
 
-
-.table th, .table td {
+.table th,
+.table td {
     color: var(--color-text);
 }
 
 :root {
-    --color-highlight: #058DC2;
-    --color-main: #4ABAB9;
-    --color-text: #00172E;
+    --color-highlight: #058dc2;
+    --color-main: #4abab9;
+    --color-main-02: #1d2b4f;
+    --color-text: #00172e;
     --color-black: #252525;
-   
+
     --white: #fff;
     --black: #000;
-    --light: #F4F5F6;
+    --light: #f4f5f6;
 }
-.rtbs{
+.rtbs {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -65,53 +66,55 @@
 }
 
 .mr-15 {
-  margin-right: 15px;
+    margin-right: 15px;
 }
 
 .mb-10 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .fw-500 {
-  font-weight: 500;
+    font-weight: 500;
 }
 .bg-gradient {
-  background-image: linear-gradient(left, #058DC2, #4ABAB9);
-  background-image: -webkit-linear-gradient(left, #058DC2, #4ABAB9);
-  background-image: -o-linear-gradient(left, #058DC2, #4ABAB9);
-  background-image: -moz-linear-gradient(left, #058DC2, #4ABAB9);
+    background-image: linear-gradient(left, #058dc2, #4abab9);
+    background-image: -webkit-linear-gradient(left, #058dc2, #4abab9);
+    background-image: -o-linear-gradient(left, #058dc2, #4abab9);
+    background-image: -moz-linear-gradient(left, #058dc2, #4abab9);
 }
-.color-main{
-  color: var(--color-main);
+.color-main {
+    color: var(--color-main);
 }
 ul {
-  margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 
-b, strong {
-  font-weight: bold !important;
+b,
+strong {
+    font-weight: bold !important;
 }
 
-html, body {
-  font-family: "URWDIN", sans-serif;
-  font-weight: 400;
-  margin: 0;
-  font-size: 16px;
-  color: var(--color-text);
-  overflow-x: hidden;
+html,
+body {
+    font-family: "URWDIN", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 16px;
+    color: var(--color-text);
+    overflow-x: hidden;
 }
 
-.container-fluid ,
+.container-fluid,
 .container-fluid .row > div {
     padding-right: 0;
     padding-left: 0;
 }
-img{
-  max-width: 100%;
+img {
+    max-width: 100%;
 }
 
 .section-what-customers-about {
-    background: #ECF7FA;
+    background: #ecf7fa;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -171,7 +174,7 @@ img{
 }
 
 .list-content-what-customers-about .item-customers_about .info-name-img .name-job .job {
-    color: #7E7E7E;
+    color: #7e7e7e;
 }
 .content-what-customers-about .title-view-more a.link-more {
     font-size: 18px;
@@ -211,7 +214,7 @@ img{
 }
 
 .section-service-01 {
-    background: #F1FAFA;
+    background: #f1fafa;
     padding: 50px 0;
 }
 
@@ -228,6 +231,7 @@ img{
     line-height: 1.2;
     padding: 12px 20px;
     border-radius: 20px;
+    border: 1px solid var(--color-main);
 }
 
 .section-service-01 .content-service .video {
@@ -246,4 +250,178 @@ img{
 
 .section-service-01 .dcs {
     margin-bottom: 25px;
+}
+
+.section-tab-price-service .item {
+    padding: 20px 25px 30px;
+    background: rgba(74, 186, 185, 0.07);
+    position: relative;
+    margin-top: 40px;
+    border-bottom: 1px solid #C9F0F0;
+    border-left: 1px solid #C9F0F0;
+    border-right: 1px solid #C9F0F0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: var(--color-main-02);
+    margin-bottom: 30px;
+}
+
+.section-tab-price-service .item svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    pointer-events: none;
+}
+
+.section-tab-price-service .item .icon-name {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--color-main);
+}
+
+.section-tab-price-service .item .icon-name .icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.section-tab-price-service .item .icon-name .name-price .name {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.section-tab-price-service .item .icon-name .name-price .price {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section-tab-price-service .item .icon-name .icon {
+    margin-right: 10px;
+}
+
+.section-tab-price-service .item .info > ul > li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.section-tab-price-service .item .info > ul > li > i {
+    color: var(--color-main);
+    margin-right: 5px;
+}
+
+.btn-service {
+    border-radius: 12px;
+    background: var(--color-main-02);
+    display: block;
+    padding: 15px 10px;
+    text-align: center;
+    color: var(--white);
+    border: 1px solid var(--color-main-02);
+}
+
+.btn-service:hover {
+    background: none;
+    color: var(--color-main-02);
+}
+
+.section-tab-price-service .item .info > ul {
+    margin-bottom: 30px !important;
+}
+
+.section-tab-price-service .item .bgr-top img {
+    position: absolute;
+    bottom: 100%;
+    left: -1px;
+    z-index: 9;
+    width: calc(100% + 2px);
+    min-width: calc(100% + 2px);
+}
+.section-tab-price-service {
+    padding: 50px 0;
+}
+
+.title-section-02 {
+    color: var(--color-main-02);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.section-tab-price-service .item-table> ul>li {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+}
+
+.section-tab-price-service .item-table >ul {
+    border-bottom: 0;
+}
+
+.section-tab-price-service .item-table> ul>li>a {
+    margin-bottom: 0;
+    border-radius: 8px;
+    border: 1px solid var(--color-main);
+    background: #F2FAFA;
+    text-align: center;
+    padding: 17px 15px;
+    color: var(--color-main-02);
+}
+
+.section-tab-price-service .item-table>ul {
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 50px !important;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.section-tab-price-service .item-table >ul>li>a.active, .section-tab-price-service .item-table> ul>li>a:hover {
+    border: 1px solid var(--color-main);
+    background:  var(--color-main);
+    color: #fff;
+}
+
+.section-tab-price-service .item.active {
+    background: #142239;
+    color: #fff;
+}
+
+.section-tab-price-service .item.active span.hot {
+    border-radius: 21px;
+    background: #4ABAB9;
+    width: 108px;
+    height: 42px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-tab-price-service .item.active .btn-service {
+    background: var(--color-main);
+    border-color: var(--color-main);
+}
+
+.section-tab-price-service .item.active .btn-service:hover {
+    background: none;
+    color: var(--color-main);
+}
+
+.link-more a:hover {
+    color: var(--color-main);
+    background: none;
 }
