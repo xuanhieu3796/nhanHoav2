@@ -532,7 +532,7 @@ img {
     margin-bottom: 30px;
 }
 .content-what-customers-about .title-section {
-    width: 781px;
+    max-width: 781px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -716,4 +716,261 @@ img {
     bottom: 17px;
     right: 10px;
     color: #b9b9b9;
+}
+
+@media (max-width: 767px){
+    .title-section {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .slogan-section {
+        font-size: 17px;
+    }
+
+    .section-service-01 .dcs {
+        margin-bottom: 20px;
+    }
+
+    .section-service-01 {
+        padding: 30px 0;
+    }
+
+    .section-service-01 .info {
+        margin-bottom: 20px;
+    }
+
+    .section-service-01 .info .title-section {
+        margin-bottom: 15px;
+    }
+
+    .title-section-02 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .section-tab-price-service .item-table> ul>li {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .section-tab-price-service .item-table> ul>li>a {
+        padding: 12px 8px;
+        font-size: 14px;
+    }
+    .section-tab-price-service .item-table> ul>li.active {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .section-tab-price-service .item-table>ul {
+        margin-bottom: 20px !important;
+    }
+    
+    .section-tab-price-service {
+        padding: 30px 0 0;
+    }
+    
+    .section-salient-features .info .info-tab .nav {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .section-salient-features .info .tab-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .section-salient-features .info {
+        padding: 15px;
+    }
+    
+    .section-salient-features {
+        padding-bottom: 30px;
+    }
+    
+    .section-salient-features .info .nav>.nav-link {
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    html, body {
+        font-size: 14px;
+    }
+    
+    .btn-service {
+        padding: 10px 10px;
+    }
+    
+    .list-sevice>.row>div:nth-child(2) {
+        order: 1;
+    }
+    
+    .list-sevice>.row>div {
+        order: 2;
+    }
+    .section-why-cloud {
+        padding-top: 0;
+    }
+
+    .section-why-cloud .item {
+        padding: 15px;
+        border: 1px solid var(--color-main);
+    }
+
+    .row {
+        margin-right: -7.5px;
+        margin-left: -7.5px;
+    }
+
+    .row>div {
+        padding-right: 7.5px;
+        padding-left: 7.5px;
+    }
+
+    .section-why-cloud .info>.row>div {
+        margin-bottom: 15px;
+    }
+
+    .section-online-support {
+        padding: 20px 0 30px;
+    }
+
+    .item-online-support {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .content-online-support .item-online-support .description {
+        margin-bottom: 20px;
+    }
+
+    .content-online-support .item-online-support .title-section {
+        margin-bottom: 15px;
+    }
+
+    .section-what-customers-about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .section-faq-service {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .section-faq-service .title-section {
+        margin-bottom: 20px;
+    }
+
+    .section-faq-service .card {
+        padding: 15px;
+        margin-bottom: 11px;
+    }
+    .section-tab-price-service .item {
+        margin-bottom: 20px;
+    }
+    .section-tab-price-service .item .icon-name .name-price .price{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1200px){
+    .row {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+
+    .row>div {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .section-tab-price-service .item, .section-why-cloud .info>.row>div {
+        margin-bottom: 20px;
+    }
+
+    .title-section {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .section-service-01 .content-service>.row {
+        display: flex;
+        align-items: center;
+    }
+
+    html, body {
+        font-size: 14px;
+    }
+
+    .title-section-02 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .section-tab-price-service .item-table> ul>li>a {
+        padding: 10px 5px;
+        font-size: 13px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-tab-price-service .item-table>ul {
+        margin-bottom: 30px !important;
+    }
+
+    .section-salient-features .info .nav>.nav-link {
+        font-size: 15px;
+    }
+
+    .section-salient-features .info {
+        padding: 15px;
+    }
+
+    .section-salient-features .info .info-tab .nav {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section-salient-features .info .tab-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section-salient-features .info .info-tab {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .section-tab-price-service {
+        padding: 40px 0 20px;
+    }
+
+    .section-salient-features {
+        padding-bottom: 10px;
+    }
+
+    .section-why-cloud .item {
+        padding: 20px 10px;
+        border: 1px solid var(--color-main);
+    }
+
+    .item-online-support {
+        padding-right: 0;
+    }
+
+    .section-online-support {
+        padding: 20px 0 40px;
+    }
+    .section-faq-service, .section-what-customers-about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .section-faq-service .card {
+        margin-bottom: 15px;
+    }
 }
