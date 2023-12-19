@@ -491,7 +491,7 @@ img {
 .section-why-cloud .item {
     border-radius: 24px;
     background: #FFF;
-    padding: 50px 20px;
+    padding: 30px 20px 50px;
     border: 1px solid #fff;
     height: 100%;
 }
@@ -626,7 +626,17 @@ img {
     background: #263C53;
     right: -1px;
 }
+.section-why-cloud .item:hover .icon {
+    background: var(--color-main);
+}
 
+.section-why-cloud .item:hover .icon svg {
+    fill: #fff;
+}
+
+.section-why-cloud .item:hover .icon svg path {
+    fill: #fff;
+}
 /*ho-tro-truc-tuyen*/
 
 .section-faq-service {
