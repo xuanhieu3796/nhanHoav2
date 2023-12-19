@@ -199,7 +199,6 @@ img {
     font-weight: 700;
     color: var(--color-text);
     text-transform: uppercase;
-    max-width: 780px;
 }
 
 .slogan-section {
@@ -472,4 +471,249 @@ img {
 }
 .section-salient-features {
     padding-bottom: 50px;
+}
+
+.section-salient-features .info .tab-content .img img {
+    width: 100%;
+    height: 210px;
+}
+
+.section-salient-features .info .tab-content .img {
+    margin-bottom: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.section-salient-features .info .tab-content .name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.section-why-cloud .item {
+    border-radius: 24px;
+    background: #FFF;
+    padding: 50px 20px;
+    border: 1px solid #fff;
+    height: 100%;
+}
+
+.section-why-cloud .item .icon {
+    width: 72px;
+    height: 72px;
+    background: rgba(74, 186, 185, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.section-why-cloud .item:hover {
+    border-radius: 24px;
+    border: 1px solid #4ABAB9;
+    background: #FFF;
+    box-shadow: 0px 4px 24px 0px rgba(74, 186, 185, 0.20);
+}
+
+.section-why-cloud .item .name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--color-main-02);
+}
+
+.section-why-cloud .item .dsc {
+    text-align: justify;
+}
+.section-why-cloud {
+    padding-top: 30px;
+}
+
+.section-why-cloud .info>.row>div {
+    margin-bottom: 30px;
+}
+.content-what-customers-about .title-section {
+    width: 781px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*ho-tro-truc-tuyen*/
+.section-online-support {
+    padding: 60px 0 80px;
+}
+
+.content-online-support .item-online-support .title {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content-online-support .item-online-support .title-section {
+    margin-bottom: 20px;
+}
+
+.content-online-support .item-online-support .description {
+    margin-bottom: 25px;
+}
+
+.content-online-support .item-online-support .form-support .form-contact {
+    display: flex;
+}
+
+.content-online-support .item-online-support .form-support .form-contact .btn-form {
+    font-size: 16px;
+    color: var(--white);
+    height: 60px;
+    border: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 0 30px;
+    border-radius: 0px 8px 8px 0px;
+    background: linear-gradient(260deg, #4ABAB9 0%, #75B8EE 100%);
+}
+
+.content-online-support .item-online-support .form-support .form-contact .form-group {
+    flex: 1 1;
+}
+
+.content-online-support .item-online-support .form-support .form-contact .form-group input.form-control {
+    height: 60px;
+    padding: 15px;
+    font-size: 16px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: #F7F8FA;
+}
+
+.item-online-support {
+    padding-right: 80px;
+}
+.content-online-support .item-video {
+    position: relative;
+    padding-top: 56%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.content-online-support .item-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.content-online-support .item-video iframe {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+}
+.list-img-partner>.row>div {
+    border-right: thin solid #263C53;
+    border-top: thin solid #263C53;
+    position: relative;
+}
+
+.list-img-partner>.row>div:nth-child(4), .list-img-partner>.row>div:nth-child(8) {
+    border-right: 0;
+}
+
+.list-img-partner>.row>div:nth-child(1):before, .list-img-partner>.row>div:nth-child(2):before, .list-img-partner>.row>div:nth-child(3):before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    height: 70px;
+    width: 1px;
+    background: #263C53;
+    right: -1px;
+}
+
+/*ho-tro-truc-tuyen*/
+
+.section-faq-service {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-faq-service .card {
+    border-radius: 12px;
+    border: 1px solid #B7E4E4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section-faq-service .card .info {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.section-faq-service .card .title {
+    font-weight: 700;
+    color: var(--color-main);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.section-faq-service .card .title.collapsed {
+    font-weight: 400;
+    color: var(--color-main-02);
+}
+
+.section-faq-service .card:last-child {
+    margin-bottom: 0;
+}
+
+.section-faq-service .title-section {
+    margin-bottom: 50px;
+}
+.section-faq-service .card .title i {
+    color: #B7E4E4;
+}
+.section-faq-service .info-faq-right .img img {
+    height: 186px;
+}
+
+.section-faq-service .info-faq-right .img {
+    margin-bottom: 30px;
+}
+
+.section-faq-service .info-faq-right .title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.section-faq-service .info-faq-right .info-bottom {
+    margin-bottom: 35px;
+}
+
+.section-faq-service .info-faq-right .send-form-service .form-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.section-faq-service .info-faq-right .send-form-service .form-group .form-control {
+    border-radius: 12px;
+    border: 1px solid #D6D6D6;
+    background: #FFF;
+    height: 56px;
+    font-size: 16px;
+}
+
+.btn-service-02 {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    border-radius: 65px;
+    background: #4ABAB9;
+    border: 0;
+    padding: 15px 25px;
+    color: #fff;
+}
+.section-faq-service .info-faq-right .send-form-service .form-group span.close {
+    font-size: 24px;
+    position: absolute;
+    bottom: 17px;
+    right: 10px;
+    color: #b9b9b9;
 }
