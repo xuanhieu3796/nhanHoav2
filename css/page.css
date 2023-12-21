@@ -984,3 +984,213 @@ img {
         margin-bottom: 15px;
     }
 }
+
+.section-tab-price-service.price-service-email .swiper-slide {
+    width: 340px;
+}
+
+.section-tab-price-service.price-service-email .item {
+    margin-top: 60px;
+}
+.section-service-email-02 {
+    padding-bottom: 50px;
+}
+
+.section-service-email-02 .list-sevice-02 .item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-service-email-02 .list-sevice-02 .item .icon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 118px;
+    height: 118px;
+    background: #EDF8F8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section-service-email-02 .list-sevice-02 .item .icon img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.section-service-email-02 .list-sevice-02 .item .dsc {
+    max-width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-service-email-02 .title-section {
+    margin-bottom: 50px;
+}
+
+.section-we-hosting-service  {padding-bottom: 60px;}
+
+.section-we-hosting-service  .content-text .item {
+    border: 1px solid #4abab900;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.section-we-hosting-service  .content-text .item .icon:before {
+    height: 75px;
+    width: 75px;
+    background: #D4F3F1;
+    border-radius: 21px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: center;
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-we-hosting-service  .content-text .item .icon img {
+    height: 32px;
+    object-fit: contain;
+    margin-left: 25px;
+}
+
+.section-we-hosting-service  .content-text .item .name {
+    font-size: 16px;
+    color: var(--color-main);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.section-we-hosting-service  .content-text .item .price {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}       
+.section-we-hosting-service  .content-text .item .icon-link {
+    margin-top: 25px;
+}
+
+.section-we-hosting-service  .content-text .item .icon-link a {
+    color: var(--color-main);
+}
+
+.section-we-hosting-service  .content-text .row {
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+}
+
+.section-we-hosting-service  .content-text .row>div {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+}
+
+.section-we-hosting-service  .content-text .item .description {
+    height: 64px;
+    overflow: hidden;
+}
+.section-we-hosting-service  .content-img .img {
+    padding-top: 64%;
+}
+
+.section-we-hosting-service  .content-img .img img {
+    object-fit: contain;
+}
+
+.section-we-hosting-service  .content-img .title-section {
+    margin-bottom: 50px;
+    text-transform: none;
+}
+
+.section-we-hosting-service  .content-text .item:hover {
+    border-color: var(--color-main);
+}
+
+.section-we-hosting-service  .content-text .item .icon {
+    position: relative;
+    height: 75px;
+    line-height: 90px;
+    margin-bottom: 25px;
+}
+.section-we-hosting-service  .content-img {
+    padding-top: 30px;
+}
+
+/* doitx */
+.section-partner-service .content {
+    position: relative;
+    padding: 90px 0 70px;
+    background: #00172e;
+}
+
+.section-partner-service .content:before {
+    width: 1618px;
+    content: "";
+    position: absolute;
+    left: 50%;
+    background: var(--color-text);
+    height: 100%;
+    z-index: 0;
+    transform: translateX(-50%);
+    top: 0;
+    border-radius: 16px;
+}
+
+.section-partner-service .item-text-left .name {
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-partner-service .item-text-left .description {
+    color: var(--white);
+    font-size: 18px;
+    position: relative;
+    max-width: 500px;
+}
+
+.section-partner-service .item-text-left .description > span > img {
+    height: 65px;
+}
+
+.section-partner-service .item-text-left .description > span {
+    display: inline-block;
+    position: absolute;
+    width: 170px;
+    right: 0;
+}
+.section-partner-service .list-img-partner .img img {
+    height: 30px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.section-partner-service .list-img-partner .img {
+    padding: 15px 10px;
+}
+
+.section-partner-service .list-img-partner .item-text-left {
+    padding-bottom: 20px;
+}
+.section-partner-service {
+    position: relative;
+}
+
+.section-partner-service:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    background: #ecf7fa;
+}
+/* doitx */
