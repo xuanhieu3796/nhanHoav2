@@ -78,6 +78,57 @@ $(document).ready(function() {
             }
         }
     });
+
+    new Swiper('.swiper_sevice_nvme', {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        slidesPerView: 2,
+        paginationClickable: true,
+        spaceBetween: 20,
+        grid:{
+            fill:"row",
+            rows: 2
+        },
+        breakpoints: {
+            1028: {
+                slidesPerView: 4,
+                spaceBetween: 30
+            },
+            900: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            },
+            600: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            }
+        }
+    });
+    new Swiper('.swiper_sevice_nvme_ht', {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        slidesPerView: "auto",
+        paginationClickable: true,
+        spaceBetween: 20,
+        breakpoints: {
+            1028: {
+                slidesPerView: 3,
+                spaceBetween: 30
+            },
+            900: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            },
+            600: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            }
+        }
+    });
 });
 
 

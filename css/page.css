@@ -349,6 +349,7 @@ img {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .section-tab-price-service .item-table> ul>li {
@@ -1194,6 +1195,116 @@ img {
     background: #ecf7fa;
 }
 /* doitx */
+
+.section-tab-service-nvme .item-table> ul>li {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+
+.section-tab-service-nvme .item-table> ul>li>a {
+    display: flex;
+    flex-direction: column;
+    border-color: #f2fafa;
+    color: var(--color-main-02);
+}
+
+.section-tab-service-nvme .item-table> ul>li>a.active,.section-tab-service-nvme .item-table> ul>li>a:hover {
+    background: linear-gradient(268deg, #4ABAB9 1.17%, #75B8EE 99.69%);
+}
+
+.section-dt-service-nvme {
+    margin-bottom: 60px;
+}
+
+.section-dt-service-nvme .info {
+    background: #EDF9F8;
+    border-radius: 8px;
+    position: relative;
+}
+
+.section-dt-service-nvme .info table.table tr>th, .section-dt-service-nvme .info table.table tr>td {
+    border: 0;
+    padding: 15px;
+}
+.section-dt-service-nvme .info table.table{
+    margin-bottom: 15px;
+}
+.section-dt-service-nvme .info table.table tbody {
+    padding-bottom: 15px;
+}
+
+.section-dt-service-nvme .info .load-more {
+    text-align: center;
+    position: relative;
+    bottom: -15px;
+}
+
+.section-dt-service-nvme .info .load-more .see-more {
+    display: inline-block;
+    padding: 5px 20px;
+    background: var(--color-main);
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid var(--color-main);
+}
+
+.section-dt-service-nvme .info .load-more .see-more:hover {
+    background: #fff;
+    color: var(--color-main);
+}
+.section-service-email-02.section-tinh-nang-nvme {
+    padding-top: 50px;
+}
+
+
+.section-difference-wp-ht {
+    margin-bottom: 50px;
+}
+
+.section-difference-wp-ht .info {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-difference-wp-ht .title-section {
+    margin-bottom: 50px;
+}
+
+.section-difference-wp-ht .info .item {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 0;
+    padding: 30px;
+    display: flex;
+    height: 100%;
+}
+
+.section-difference-wp-ht .info .item .inter-img {
+    flex: 0 0 85px;
+}
+
+.section-difference-wp-ht .info .item .inter-img .img img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.section-difference-wp-ht .info .item .inter-content .name {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-difference-wp-ht .info>.row>div {
+    margin-bottom: 30px;
+}
+
+
+@media (min-width: 1024px){
+    .section-salient-features .content .title-section span {
+        display: block;
+    }
+}
 @media (max-width:1200px){
     .section-we-hosting-service .content-text .item {
         border-color: var(--color-main);
@@ -1238,6 +1349,36 @@ img {
     .section-tab-price-service.price-service-email {
         padding-bottom: 20px;
     }
+    .section-service-email-02.section-tinh-nang-nvme {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .section-dt-service-nvme {
+        margin-bottom: 40px;
+    }
+    .section-dt-service-nvme .info .table-price {
+        overflow-x: scroll;
+    }
+
+    .section-dt-service-nvme .info table.table {
+        width: 1000px;
+    }
+    .price-service-wordpress .title-section-02 {
+        margin-bottom: 40px;
+    }
+    .section-difference-wp-ht .title-section {
+        margin-bottom: 20px;
+    }
+
+    .section-difference-wp-ht {
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .service-email-wp {
+        margin-bottom: 40px;
+    }
 }
 @media (min-width:767px) and (max-width:1024px){
     .section-we-hosting-service .content-img .img {
@@ -1259,6 +1400,9 @@ img {
     .section-we-hosting-service .content-img {
     
         padding-top: 0;
+    }
+    .section-tab-price-service .item.active span.hot {
+        width: 88px;
     }
 }
 
@@ -1324,5 +1468,9 @@ img {
     }
     .section-faq-service .info-faq-right {
         margin-top: 30px;
+    }
+    .section-tab-service-nvme .item-table> ul>li {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
