@@ -958,7 +958,7 @@ img {
     }
 
     .section-tab-price-service {
-        padding: 40px 0 20px;
+        padding: 30px 0 15px;
     }
 
     .section-salient-features {
@@ -978,8 +978,8 @@ img {
         padding: 20px 0 40px;
     }
     .section-faq-service, .section-what-customers-about {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .section-faq-service .card {
         margin-bottom: 15px;
@@ -1298,10 +1298,11 @@ img {
 .section-difference-wp-ht .info>.row>div {
     margin-bottom: 30px;
 }
-.box-linux-06 {
+.box-linux-06, .box-window-06 {
     padding-top: 0;
     padding-bottom: 20px;
 }
+
 
 @media (min-width: 1024px){
     .section-salient-features .content .title-section span {
@@ -1382,12 +1383,20 @@ img {
     .service-email-wp {
         margin-bottom: 40px;
     }
-    .box-linux-07 {
+     .box-window-06{
+        padding-bottom: 10px;
+     }
+    .box-linux-07, .box-window-07 {
         padding-top: 0;
         padding-bottom: 30px;
     }
-    .box-window-07 {
-        padding-bottom: 30px;
+    .section-why-cloud .item .name {
+        font-size: 15px;
+    }
+    .box-dedi-06 {padding-bottom: 20px;}
+
+    .box-dedi-06 .content-img {
+        padding-top: 0;
     }
 }
 @media (min-width:767px) and (max-width:1024px){
@@ -1397,7 +1406,7 @@ img {
 }
 @media (min-width:767px) and (max-width:1200px){
     .section-service-01 {
-        padding: 40px 0;
+        padding: 30px 0;
     }
     .section-we-hosting-service .content-text .item .icon img {
         height: 25px;
@@ -1417,6 +1426,9 @@ img {
 
     .section-partner-service .item-text-left .name {
         font-size: 25px;
+    }
+    .box-linux-07, .box-window-07{
+        padding-bottom:20px;
     }
 }
 
