@@ -1298,7 +1298,10 @@ img {
 .section-difference-wp-ht .info>.row>div {
     margin-bottom: 30px;
 }
-
+.box-linux-06 {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
 
 @media (min-width: 1024px){
     .section-salient-features .content .title-section span {
@@ -1337,7 +1340,7 @@ img {
     }
     .section-service-email-02 {
         padding-bottom: 0;
-        padding-top: 12px;
+        padding-top: 15px;
     }
     .section-we-hosting-service {
         padding-bottom: 30px;
@@ -1379,6 +1382,13 @@ img {
     .service-email-wp {
         margin-bottom: 40px;
     }
+    .box-linux-07 {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .box-window-07 {
+        padding-bottom: 30px;
+    }
 }
 @media (min-width:767px) and (max-width:1024px){
     .section-we-hosting-service .content-img .img {
@@ -1390,11 +1400,8 @@ img {
         padding: 40px 0;
     }
     .section-we-hosting-service .content-text .item .icon img {
-    
         height: 25px;
-   
         margin-left: 15px;
-
     }
 
     .section-we-hosting-service .content-img {
@@ -1403,6 +1410,13 @@ img {
     }
     .section-tab-price-service .item.active span.hot {
         width: 88px;
+    }
+    .section-partner-service .item-text-left .description {
+        font-size: 15px;
+    }
+
+    .section-partner-service .item-text-left .name {
+        font-size: 25px;
     }
 }
 
