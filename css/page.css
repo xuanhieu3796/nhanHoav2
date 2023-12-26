@@ -1659,6 +1659,7 @@ img {
 .content-detail-recruitment .dsc-all>ul {
     display: flex;
     padding-left: 0;
+    flex-wrap: wrap;
 }
 
 .content-detail-recruitment .dsc-all>ul>li {
@@ -1865,9 +1866,132 @@ nav.breadcrumbs-section a:last-child {
     border: 1px solid var(--color-main-02);
     border-radius: 8px;
     color: #fff;
+    margin-top: 15px;
 }
 
 .content-detail-recruitment .form-recruitment .content .btn:hover {
     color: var(--color-main-02);
     background: none;
+}
+.content-detail-recruitment .form-recruitment .form-group.form-group-file label.btn-file {
+    width: 100%;
+    display: flex;
+    height: 48px;
+    background: #fff;
+    color: #767b81;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.content-detail-recruitment .form-recruitment .form-group.form-group-file label.btn-file span {
+    position: relative;
+    padding: 0 15px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+}
+
+.content-detail-recruitment .form-recruitment .form-group.form-group-file label.btn-file span img {
+    position: initial;
+    margin-right: 10px;
+}
+.content-detail-recruitment .form-recruitment .content .form-group textarea.form-control {
+    height: 100px;
+}
+.section-detail-recruitment {
+    padding-bottom: 50px;
+}
+.section-detail-recruitment {
+    padding-bottom: 50px;
+}
+
+.content-detail-recruitment .bottom>ul>li a:hover {
+    color: #fff;
+    background: var(--color-main);
+}
+
+.content-detail-recruitment .bottom>ul>li a.btn-utn:hover {
+    color: var(--color-main);
+    background: #fff;
+}
+
+.content-detail-recruitment .bottom>ul>li a.btn-utn:hover svg path {fill: var(--color-main);}
+
+@media (max-width: 1200px){
+    .section-search-recruitment .content .form-group {
+        margin-bottom: 15px;
+    }
+
+    .section-search-recruitment .content .form-group label {
+        margin-bottom: 10px;
+    }
+
+
+    .section-search-recruitment .content .form-group .form-control {
+        height: 47px;
+    }
+
+    .section-search-recruitment .content .form-group svg {
+        top: 11px;
+    }
+
+    .section-search-recruitment {
+        padding: 30px 0;
+    }
+
+    .section-search-recruitment .content .info-form {
+        padding: 20px 20px 10px 20px;
+    }
+
+    .content-detail-recruitment .detail-top, .text-content-recruitment {
+        padding: 15px 15px;
+        margin-bottom: 20px;
+    }
+
+    .content-detail-recruitment .bottom>ul>li {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .content-detail-recruitment .bottom>ul {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .content-detail-recruitment .form-recruitment {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .section-ttc, .section-ud {
+        margin-bottom: 20px;
+    }
+
+    .content-detail-recruitment .form-recruitment .title-recruitment {
+        margin-bottom: 15px;
+    }
+
+    .content-detail-recruitment .form-recruitment .content .btn {
+        margin-top: 5px;
+    }
+
+    .detail-top .time-date {
+        margin-bottom: 15px;
+    }
+    .content-detail-recruitment .dsc-all>ul>li {
+        margin-bottom: 20px;
+    }
+
+    .content-detail-recruitment .dsc-all {
+        margin-bottom: 0;
+    }
+    .section-list-recruitment {
+    padding: 30px 0;
+    }
+
+    .section-list-recruitment .content .item {
+    margin-bottom: 15px;
+    }
 }
