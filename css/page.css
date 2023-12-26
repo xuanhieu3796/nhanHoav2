@@ -1639,17 +1639,18 @@ img {
     background: #40A18D;
 }
 
-.content-detail-recruitment {
+.content-detail-recruitment .detail-top, .text-content-recruitment {
     border-radius: 8px;
     background: #F9F9F9;
     padding: 20px 30px;
+    margin-bottom: 30px;
 }
 
 .content-detail-recruitment .dsc-all {
     margin-bottom: 30px;
 }
 
-.content-detail-recruitment .detail-top .title {
+.content-detail-recruitment .detail-top .title, .title-recruitment {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -1736,7 +1737,7 @@ img {
 }
 
 .breadcrumbs-section {
-    padding: 15px;
+    padding: 15px 0;
 }
 
 nav.breadcrumbs-section a {
@@ -1767,4 +1768,47 @@ nav.breadcrumbs-section a:last-child {
 .phone-top>a img {
     height: 30px;
     margin-right: 10px;
+}
+
+.section-ttc, .section-ud {
+    border-radius: 8px;
+    background: #F9F9F9;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+}
+
+.section-ttc .content .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section-ttc .content .item .icon {
+    flex: 0 0 52px;
+    height: 52px;
+    background: var(--color-main);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-ttc .content .item .inter-content {
+    flex: 1 1;
+    padding-left: 15px;
+}
+.section-ud .content .img img {
+    width: 100%;
+    height: auto;
+}
+
+.section-ud .content .img {
+    margin-bottom: 20px;
+}
+.text-content-recruitment .content h2 {
+    font-size: 20px;
+}
+
+.text-content-recruitment .content h3 {
+    font-size: 18px;
 }
