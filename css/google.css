@@ -143,7 +143,7 @@ img {
 }
 
 .section-banner-google-wp {
-    background: #cadce0;
+    background: #f1fafa;
     padding: 40px 0 30px;
 }
 
@@ -185,14 +185,7 @@ img {
 .section-google-box-02  .info .img-icon img {
     height: 95px;
 }
-.title-section {
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: 700;
-    color: var(--color-text);
-    text-transform: uppercase;
-}
+
 
 .section-table-price-wp .item-price {
     border: 1px solid #c0e6e6;
@@ -231,6 +224,7 @@ img {
     background-image: -webkit-linear-gradient(left, #058dc2, #4abab9);
     background-image: -o-linear-gradient(left, #058dc2, #4abab9);
     background-image: -moz-linear-gradient(left, #058dc2, #4abab9);
+    border: 1px solid #fff0;
 }
 .section-table-price-wp .info-emty .item-price .gift {
     border-bottom: 1px solid var(--color-main);
@@ -277,7 +271,9 @@ img {
 }
 
 .section-table-price-wp .info-emty .item-price .info p i {
-    padding-top: 4px;
+    padding-top: 3px;
+    color: var(--color-main);
+    margin-right: 10px;
 }
 
 .section-table-price-wp .title-section {
@@ -350,5 +346,649 @@ img {
     margin-bottom: 30px;
     font-weight: 700;
     color: var(--color-text);
-    text-transform: uppercase;
+}
+.section-table-price-wp {
+    padding-bottom: 60px;
+}
+
+.link-dktv-price a {
+    display: inline-block;
+    background-image: linear-gradient(left, #058dc2, #4abab9);
+    background-image: -webkit-linear-gradient(left, #058dc2, #4abab9);
+    background-image: -o-linear-gradient(left, #058dc2, #4abab9);
+    background-image: -moz-linear-gradient(left, #058dc2, #4abab9);
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: var(--white);
+    margin-top: 40px;
+    border: 1px solid #fff0;
+}
+
+.section-instruct-wp {
+    padding: 60px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-instruct-wp .content-table .table {
+    background: #fff;
+    /* border-radius: 10px; */
+    /* overflow: hidden; */
+    margin-bottom: 0 !important;
+    border: 0 !important;
+}
+
+.section-instruct-wp .content-table .table>thead>tr>th {
+    border-bottom: 0;
+}
+
+.section-instruct-wp .content-table .table>thead>tr>th:first-child {
+    width: 20%;
+}
+
+.section-instruct-wp tr>th, .section-instruct-wp tr>td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.section-instruct-wp .content-table .table tbody>tr>td:nth-child(1) {
+    text-align: left;
+    font-weight: 500;
+}
+
+.section-instruct-wp .content-table .table tbody>tr>td i {
+    color: var(--color-main);
+}
+
+.section-instruct-wp .title-section {
+    margin-bottom: 30px;
+}
+.section-giai-phap {
+    padding: 60px 0;
+}
+
+.section-giai-phap .info .title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.section-giai-phap .info .img img {
+    height: 55px;
+}
+
+.section-giai-phap .info .img {
+    margin-bottom: 15px;
+}
+
+.section-giai-phap .img-right img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.section-giai-phap .img-right {
+    position: relative;
+    padding-top: 56%;
+}
+.section-giai-phap .info .title span {
+    display: block;
+}
+
+.section-diem-noi-troi .info table>thead>tr>th {
+    width: 40%;
+    text-align: center;
+    font-weight: 400;
+    border-bottom: 0;
+}
+
+.section-diem-noi-troi .info table>thead>tr>th:nth-child(2) {
+    background: var(--color-main);
+    color: #fff;
+}
+
+.section-diem-noi-troi .info table>thead>tr>th:nth-child(1) {
+    width: 20%;
+}
+.title-section>span {
+    display: block;
+}
+.section-diem-noi-troi {
+    padding-bottom: 50px;
+}
+
+.section-cong-viec .content .info-left .item {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.section-cong-viec .content .info-left .item .img {
+    position: relative;
+    padding-top: 50%;
+    margin-bottom: 10px;
+}
+
+.section-cong-viec .content .info-left .item .img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.section-cong-viec .content .info-left .item .title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-cong-viec .content .info-left .item .dsc {
+    min-height: 66px;
+}
+
+.section-cong-viec .content .info-left>.row>div:nth-child(1) {
+    padding-top: 49px;
+}
+
+.section-cong-viec .info-right .img img {
+    height: 40px;
+}
+
+.section-cong-viec .info-right .img {
+    margin-bottom: 20px;
+}
+
+.section-cong-viec .info-right  .title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section-cong-viec .info-right .dsc {
+    margin-bottom: 30px;
+}
+
+.section-cong-viec .info-right .btn-cv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-cong-viec .info-right .btn-cv a {
+    display: inline-block;
+    width: 240px;
+    border: 1px solid var(--color-main);
+    margin-right: 15px;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.section-cong-viec .info-right .btn-cv a.btn.btn-main {
+    background: var(--color-main);
+    color: #fff;
+}
+
+.section-cong-viec .info-right .btn-cv a:hover {
+    background: var(--color-main);
+    color: #fff;
+}
+
+.box-section.bg-ask-questions {
+    padding: 0px 0 60px;
+}
+.ask-questions #accordion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ask-questions #accordion .card {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: #f6f7f8;
+}
+
+.ask-questions #accordion .card .card-body{
+    padding: 0.85rem 1.25rem;
+    text-align: justify;
+}
+
+.ask-questions .card-header button.btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ask-questions .card-header button.btn:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #ccc9c9;
+}
+
+.ask-questions .title-section {
+    margin-bottom: 30px;
+}
+
+.section-cong-viec {
+    padding-bottom: 30px;
+}
+.link-dktv-price a:hover, .section-table-price-wp .item-price .link-add-cart .btn-add-cart:hover {
+    border-color: var(--color-main);
+    background: #fff;
+    color: var(--color-main);
+}
+
+.section-doi-tac-kv {
+    padding-bottom: 80px;
+}
+
+.section-doi-tac-kv .item {
+    display: flex;
+    align-items: center;
+}
+
+.section-doi-tac-kv .item .img img {
+    height: 44px;
+    object-fit: contain;
+}
+
+.section-doi-tac-kv .item .img {
+    margin-right: 15px;
+}
+
+.section-doi-tac-kv .item .name {font-size: 16px;font-weight: 700;}
+
+.section-doi-tac-kv .item .name>span {
+    display: block;
+}
+
+.section-doi-tac-kv .item .text {
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 15px;
+    line-height: 1;
+}
+
+.section-doi-tac-kv .content>.row>div:nth-child(2) .item .text {
+    color: var(--color-main);
+}
+
+.section-doi-tac-kv .content>.row>div:nth-child(3) .item .text {
+    color: #d40000;
+}
+
+.section-ban-trai-nghiem .title-section {text-transform: none;font-size: 30px;}
+
+.section-ban-trai-nghiem .content {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 248px;
+    padding-top: 70px;
+}
+
+.section-ban-trai-nghiem .content .dsc>span {
+    display: block;
+}
+
+.section-ban-trai-nghiem .content .dsc {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.section-ban-trai-nghiem .content  .btn.btn-dt {
+    background: var(--color-main);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid var(--color-main);
+}
+
+.section-ban-trai-nghiem .content .btn.btn-dt:hover {
+    color: var(--color-main);
+    background: #fff;
+}
+.section-diem-noi-troi .info {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.section-diem-noi-troi .table-bordered {
+    margin-bottom: 0;
+    border: 0;
+}
+@media (max-width: 767px){
+    .section-banner-google-wp .content .info .title {
+        font-size: 20px;
+    }
+
+    .section-banner-google-wp .content .info .description {
+        font-size: 16px;
+    }
+
+    .section-banner-google-wp .content .info .logo-google img {
+        object-fit: contain;
+        max-width: 100%;
+        height: 62px;
+    }
+
+    .section-banner-google-wp .info {
+        margin-bottom: 20px;
+    }
+
+    .section-google-box-02 .title {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+
+    .section-google-box-02 .img-banner {
+        margin-bottom: 30px;
+    }
+
+    .section-google-box-02 .dsc {
+        font-size: 16px;
+    }
+
+    .section-google-box-02 .dsc-02 {
+        font-size: 18px;
+    }
+
+    .title-section {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .section-table-price-wp ul>li {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .section-table-price-wp ul>li>a {
+        padding: 9px 15px;
+    }
+
+    .section-table-price-wp ul {
+        margin-bottom: 30px !important;
+    }
+
+    .section-google-box-02 {
+        padding: 35px 0;
+    }
+
+    .section-table-price-wp .item-price {
+        margin-bottom: 30px;
+    }
+
+    .link-dktv-price a {
+        margin-top: 0;
+    }
+
+    .section-table-price-wp {
+        padding-bottom: 0;
+    }
+
+    .section-instruct-wp {
+        padding: 40px 0 0;
+    }
+
+    .section-instruct-wp .content-table {
+        overflow-x: scroll;
+    }
+
+    .section-instruct-wp .content-table .table.table-bordered {
+        width: 1200px;
+    }
+
+    .section-giai-phap {
+        padding: 40px 0;
+    }
+
+    .section-giai-phap .info .img img {
+        object-fit: contain;
+    }
+
+    .section-giai-phap .info {
+        margin-bottom: 30px;
+    }
+
+    .title-section>span {
+        display: inline-block;
+    }
+
+    .section-diem-noi-troi .info {
+        overflow-x: scroll;
+    }
+
+    .section-diem-noi-troi .info .table.table-bordered {
+        width: 1000px;
+    }
+
+    .section-cong-viec .content .row>div:nth-child(1) {
+        order: 2;
+    }
+
+    .section-diem-noi-troi {
+        padding-bottom: 30px;
+    }
+
+    .section-cong-viec .info-right .img {
+        display: none;
+    }
+
+    .section-cong-viec .info-right {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .section-cong-viec .info-right .title-section {
+        text-align: center !important;
+    }
+
+    .section-cong-viec .info-right .btn-cv a {
+        width: 48%;
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .section-cong-viec .info-right .btn-cv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .row {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+
+    .row>div {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .section-cong-viec .content .info-left .item {
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .section-cong-viec .content .info-left .item .dsc {
+        font-size: 14px;
+    }
+
+    .section-cong-viec {
+        padding-bottom: 20px;
+    }
+
+    .ask-questions .card-header button.btn {
+        font-size: 14px;
+    }
+
+    .box-section.bg-ask-questions {
+        padding: 0px 0 20px;
+    }
+
+    .section-doi-tac-kv .item {
+        margin-bottom: 21px;
+    }
+
+    .section-doi-tac-kv {
+        padding-bottom: 30px;
+    }
+
+    .section-ban-trai-nghiem .content {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+
+    .section-ban-trai-nghiem .title-section {
+        font-size: 20px;
+    }
+
+    .section-ban-trai-nghiem .content .dsc {
+        font-size: 16px;
+    }
+
+    .table th, .table td {
+        font-size: 14px;
+    }
+
+    .section-table-price-wp ul>li>a {
+        font-size: 14px;
+    }
+    .section-table-price-wp .info-emty .item-price .link-add-cart {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1200px){
+    .section-banner-google-wp .content .info .title {
+        font-size: 20px;
+    }
+
+    .section-banner-google-wp .content .info .description {
+        font-size: 16px;
+    }
+
+    .section-banner-google-wp .content .info .logo-google img {
+        height: 60px;
+    }
+
+    .section-google-box-02 .title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .section-google-box-02 .dsc {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .section-google-box-02 .dsc-02 {
+        font-size: 16px;
+    }
+
+    .section-google-box-02 .info .img-icon img {
+        height: 76px;
+    }
+
+    .title-section {
+        font-size: 25px;
+    }
+
+    .section-table-price-wp ul {
+        margin-bottom: 30px !important;
+    }
+
+    .section-table-price-wp .item-price {
+        margin-bottom: 30px;
+    }
+
+    .link-dktv-price a {
+        margin-top: 0;
+    }
+
+    .section-table-price-wp {
+        padding-bottom: 0;
+    }
+
+    .section-instruct-wp {
+        padding-bottom: 0;
+    }
+
+    .section-giai-phap .info .img img {
+        height: 30px;
+    }
+
+    .section-giai-phap .info .title {
+        font-size: 18px;
+    }
+
+    .section-giai-phap {
+        padding: 50px 0;
+    }
+
+    .row {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+
+    .row>div {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .section-cong-viec .content .info-left .item {
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .title-section {
+        margin-bottom: 15px;
+    }
+
+    .section-cong-viec .info-right .btn-cv a {
+        width: 48%;
+        margin: 0;
+    }
+
+    .section-cong-viec .info-right .btn-cv {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section-doi-tac-kv .item .text {
+        font-size: 36px;
+    }
+
+    .box-section.bg-ask-questions {
+        padding: 0px 0 40px;
+    }
+
+    .section-ban-trai-nghiem .title-section {
+        font-size: 20px;
+    }
+
+    .section-ban-trai-nghiem .content {
+        padding-bottom: 77px;
+        padding-top: 49px;
+    }
+
+    .section-doi-tac-kv {
+        padding-bottom: 70px;
+    }
 }
