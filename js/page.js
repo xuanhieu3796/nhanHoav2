@@ -129,6 +129,29 @@ $(document).ready(function() {
             }
         }
     });
+
+    new Swiper('.swiper_lich_su_phat', {
+        pagination: {
+            el: ".swiper-pagination",
+          },
+        slidesPerView: "2",
+        paginationClickable: true,
+        spaceBetween: 0,
+        breakpoints: {
+            1028: {
+                slidesPerView: "5",
+                spaceBetween: 0
+            },
+            900: {
+                slidesPerView: "4",
+                spaceBetween: 0
+            },
+            600: {
+                slidesPerView: "3",
+                spaceBetween: 0
+            }
+        }
+    });
 });
 
 
