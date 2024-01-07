@@ -132,8 +132,9 @@ $(document).ready(function() {
 
     new Swiper('.swiper_lich_su_phat', {
         pagination: {
-            el: ".swiper-pagination",
-          },
+            el: '.swiper-pagination',
+            clickable: true,
+        },
         slidesPerView: "2",
         paginationClickable: true,
         spaceBetween: 0,

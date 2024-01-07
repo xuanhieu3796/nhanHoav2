@@ -414,7 +414,7 @@ img {
 }
 
 .section-giai-phap .info .img img {
-    height: 55px;
+    height: 32px;
 }
 
 .section-giai-phap .info .img {
@@ -673,13 +673,40 @@ img {
     margin-bottom: 0;
     border: 0;
 }
-@media (max-width: 767px){
+.section-diem-noi-troi .info table thead tr>th {
+    border-top: 0;
+}
+
+.section-diem-noi-troi .info table thead tr>th:first-child {
+    border-left: 0;
+}
+
+.section-diem-noi-troi .info table thead tr>th:last-child {
+    border-right: 0;
+}
+
+.section-diem-noi-troi .info table tr>td:first-child {
+    border-left: 0;
+}
+
+.section-diem-noi-troi .info table tr>td:last-child {
+    border-right: 0;
+}
+
+.section-diem-noi-troi .info table tr:last-child>td {
+    border-bottom: 0;
+}
+@media (max-width:1200px){
+    body{
+        font-size:14px;
+    }
+    
     .section-banner-google-wp .content .info .title {
         font-size: 20px;
     }
 
-    .section-banner-google-wp .content .info .description {
-        font-size: 16px;
+    .section-banner-google-wp .content .info .description, .section-google-box-02 .dsc {
+        font-size: 14px;
     }
 
     .section-banner-google-wp .content .info .logo-google img {
@@ -699,10 +726,6 @@ img {
 
     .section-google-box-02 .img-banner {
         margin-bottom: 30px;
-    }
-
-    .section-google-box-02 .dsc {
-        font-size: 16px;
     }
 
     .section-google-box-02 .dsc-02 {
@@ -732,7 +755,7 @@ img {
     }
 
     .section-table-price-wp .item-price {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 
     .link-dktv-price a {
@@ -779,10 +802,7 @@ img {
         width: 1000px;
     }
 
-    .section-cong-viec .content .row>div:nth-child(1) {
-        order: 2;
-    }
-
+    
     .section-diem-noi-troi {
         padding-bottom: 30px;
     }
@@ -860,7 +880,7 @@ img {
     }
 
     .section-ban-trai-nghiem .content .dsc {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .table th, .table td {
@@ -873,6 +893,9 @@ img {
     .section-table-price-wp .info-emty .item-price .link-add-cart {
         margin-bottom: 20px;
     }
+    .section-giai-phap .info .title {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 1200px){
@@ -881,7 +904,7 @@ img {
     }
 
     .section-banner-google-wp .content .info .description {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .section-banner-google-wp .content .info .logo-google img {
@@ -894,12 +917,12 @@ img {
     }
 
     .section-google-box-02 .dsc {
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
 
     .section-google-box-02 .dsc-02 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .section-google-box-02 .info .img-icon img {
@@ -915,7 +938,7 @@ img {
     }
 
     .section-table-price-wp .item-price {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
 
     .link-dktv-price a {
@@ -928,6 +951,7 @@ img {
 
     .section-instruct-wp {
         padding-bottom: 0;
+        padding-top: 40px;
     }
 
     .section-giai-phap .info .img img {
@@ -991,4 +1015,10 @@ img {
     .section-doi-tac-kv {
         padding-bottom: 70px;
     }
+}
+@media (max-width:767px){
+    .section-cong-viec .content .row>div:nth-child(1) {
+        order: 2;
+    }
+
 }
