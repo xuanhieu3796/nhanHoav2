@@ -156,3 +156,12 @@ $(document).ready(function() {
 });
 
 
+
+
+$("[nh-category-dm]").click(function() {
+    $('.box-menu-danh-muc').toggleClass('active');
+});
+
+$("[nh-close]").click(function() {
+    $('.box-menu-danh-muc').removeClass('active');
+});
