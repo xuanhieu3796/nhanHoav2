@@ -1363,7 +1363,8 @@ a.group_child.group-logo-home-nh .logo_name_1, a.group_child.group-logo-home-nh 
     }
     
     .section-tab-price-service {
-        padding: 40px 0 20px;
+    margin-top: 30px;
+    margin-bottom: 20px !important;
     }
     
     .section-yourdomain {
@@ -2117,3 +2118,58 @@ a.group_child.group-logo-home-nh .logo_name_1, a.group_child.group-logo-home-nh 
     padding-bottom: 50px;
 }
 
+
+@media (max-width:767px){
+    .box-section-ud:before {
+        display: none;
+    }
+
+    .section-box-about .video {
+        margin-bottom: 20px;
+    }
+
+    .section-box-about {
+        margin-bottom: 0;
+    }
+
+    .box-section-ud .info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-section-ud .info .title-section {
+        padding-left: 0;
+        flex: 0 0 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .box-section-ud .info .item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .box-section-ud .info .item .icon img {
+        width: 80px;
+    }
+
+    .box-section-ud .info .item .inter-content {
+        position: initial;
+        color: #000;
+        opacity: 1;
+        background: none;
+        padding: 10px;
+    }
+
+    .box-section-ud {
+        margin-bottom: 40px;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width:1200px){
+    .section-chinh-sach {
+        padding-bottom: 40px;
+    }
+}
