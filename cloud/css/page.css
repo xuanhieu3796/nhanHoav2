@@ -45,7 +45,7 @@
 
 :root {
     --color-highlight: #058dc2;
-    --color-main: #29b5d6;
+    --color-main: #042868;
     --color-text: #00172e;
     --color-black: #252525;
 
@@ -182,30 +182,28 @@ img {
 
 .section-box-slider .img img {
     width: 100%;
-    height: 50vw;
+    height: 48vw;
     object-fit: cover;
 }
 
 .section-box-slider .content .info-left .title-slider {
-    color: var(--color-main);
-    font-size: 40px;
+    color: #1154bf;
+    font-size: 55px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .section-box-slider .content .info-left .title-section {
-    margin-bottom: 5px;
-    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .section-box-slider .content .info-left .dsc {
-    font-size: 18px;
+    font-size: 24px;
     max-width: 430px;
     margin-bottom: 40px;
 }
 
 .btn-btn-all a {
-    background: var(--color-main);
     display: flex;
     padding: 10px;
     border-radius: 15px;
@@ -213,7 +211,8 @@ img {
     color: #fff;
     align-items: center;
     justify-content: center;
-    border: 1px solid var(--color-main);
+    border: 1px solid #1951ad;
+    background-image: linear-gradient(to right, #417be6, #1951ad);
 }
 
 .btn-btn-all a:hover {
@@ -221,9 +220,10 @@ img {
     color: var(--color-main);
 }
 .title-section {
-    font-size: 29px;
+    font-size: 40px;
     font-weight: 500;
     margin-bottom: 15px;
+    color: var(--color-main);
 }
 
 
@@ -268,7 +268,7 @@ img {
     font-size: 20px;
 }
 .section-tab-price-service .item {
-    padding: 15px 15px 20px;
+    padding: 20px;
     background: rgba(74, 186, 185, 0.07);
     position: relative;
     margin-top: 40px;
@@ -292,9 +292,9 @@ img {
 }
 
 .section-tab-price-service .item .icon-name {
-    padding-bottom: 20px;
-    margin-bottom: 21px;
-    border-bottom: 1px solid var(--color-main);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid var(--color-highlight);
     text-align: center;
 }
 
@@ -305,9 +305,9 @@ img {
 }
 
 .section-tab-price-service .item .icon-name .name-price .name {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .section-tab-price-service .item .icon-name .name-price .price {
@@ -326,16 +326,16 @@ img {
 }
 
 .section-tab-price-service .item .info > ul > li > i {
-    color: var(--color-main);
-    margin-right: 5px;
+    color: #04aab3;
+    margin-right: 10px;
     padding-top: 3px;
 }
 
 .btn-service {
-    border-radius: 12px;
+    border-radius: 5px;
     background: var(--color-text);
     display: block;
-    padding: 15px 10px;
+    padding: 10px 10px;
     text-align: center;
     color: var(--white);
     border: 1px solid var(--color-text);
@@ -1947,3 +1947,173 @@ a.group_child.group-logo-home-nh .logo_name_1, a.group_child.group-logo-home-nh 
         margin-right: 10px;
     }
 }
+
+.box-section-ud {
+    position: relative;
+    margin-bottom: 190px;
+}
+
+.box-section-ud .info {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    position: relative;
+    z-index: 2;
+    background: #fff;
+}
+
+.box-section-ud .info .item {
+    flex: 0 0 20%;
+    max-width: 20%;
+    position: relative;
+}
+
+.box-section-ud .info .item .icon {
+    text-align: center;
+}
+
+.box-section-ud .info .item .icon img {
+    width: 120px;
+    padding: 0 15px;
+}
+
+.box-section-ud .info .item .inter-content {
+    z-index: 9;
+    background: var(--color-main);
+    border-radius: 16px;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-image: linear-gradient(to right, #417be6, #1951ad);
+}
+
+.box-section-ud .info .item .inter-content .name {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.box-section-ud .info .item:hover .inter-content {
+    opacity: 1;
+}
+
+.box-section-ud .info .item.name {
+    padding-left: 20px;
+    font-weight: 700;
+}
+.box-section-ud:before {
+    content: '';
+    position: absolute;
+    left: -113px;
+    width: 500px;
+    height: 500px;
+    background: #2b64c7;
+    border-radius: 50%;
+    z-index: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: radial-gradient(#80a6e9ad, #2b64c7, #2b64c7);
+}
+
+.section-box-about {
+    margin-bottom: 50px;
+}
+
+.section-box-about .video {
+    position: relative;
+    padding-top: 56%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.section-box-about .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.section-box-about .info ul {
+    margin-bottom: 40px !important;
+}
+
+.section-tab-price-service .item ul {
+    margin-bottom: 40px !important;
+}
+
+.section-tab-price-service .item ul>li {
+    margin-bottom: 15px !important;
+}
+.section-tab-price-service .item .option .form-control {
+    background: none;
+    border: 1px solid var(--color-highlight);
+    margin-bottom: 30px;
+    border-radius: 5px !important;
+    font-size: 17px;
+}
+
+.section-tab-price-service .item.active .info > ul > li > i {
+    color: var(--color-highlight);
+}
+
+.section-tab-price-service .item.active .option .form-control {
+    color: #fff;
+    border-color: #fff;
+}
+
+.section-tab-price-service .item.active a.btn-service {
+    background: var(--color-highlight);
+    border-color: var(--color-highlight);
+}
+
+.section-tab-price-service .item.active :hover a.btn-service {
+    background: none;
+    color: var(--color-highlight);
+}
+
+.section-tab-price-service .item.active .option .form-control option {
+    color: #000;
+}
+.box-section-ud .info .item .inter-content .inter-content {
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 200px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1951ad;
+}
+.box-section-ud .info .title-section {
+    margin-bottom: 0;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.section-tab-price-service {
+    margin-bottom: 30px;
+}
+
+.section-chinh-sach .content .info .text ul {
+    margin-bottom: 0;
+}
+
+.section-chinh-sach .content .info .text ul>li {
+    list-style: none;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.section-chinh-sach .content .info .text ul>li>i {
+    padding-top: 4px;
+    margin-right: 10px;
+    display: inline-block;
+    color: #04aab3;
+}
+
+.section-chinh-sach {
+    padding-bottom: 50px;
+}
+
